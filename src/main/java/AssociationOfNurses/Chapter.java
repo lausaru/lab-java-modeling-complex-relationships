@@ -15,6 +15,7 @@ import java.util.Objects;
 public class Chapter {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int chapterId;
     private String name;
     private String district;
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
