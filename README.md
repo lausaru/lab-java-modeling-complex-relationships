@@ -23,14 +23,14 @@ Once you finish the assignment, submit a URL link to your repository or your pul
 
 ## Instructions
 
-1. Using the Spring JPA model, create the relationships for an application for an Association of Nurses. The Association has 7 Chapters and each Chapter has the following properties:
+1. Using the Spring JPA model, create the relationships for an application for an Association of Nurses. The Association has 7 Chapters and each AssociationOfNurses.Chapter has the following properties:
 
    - `name`: the name of the chapter
    - `district`: the geographical district the chapter belongs to
-   - `president`: a Member object representing the chapter's president
-   - `list`: a list of Member objects representing the chapter's members
+   - `president`: a AssociationOfNurses.Member object representing the chapter's president
+   - `list`: a list of AssociationOfNurses.Member objects representing the chapter's members
 
-- Each Member has the following properties:
+- Each AssociationOfNurses.Member has the following properties:
 
   - `name`: the member's name
   - `status`: the member's status, which can be _ACTIVE_ or _LAPSED_
